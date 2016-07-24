@@ -30,10 +30,7 @@ function start() {
   setInterval(update, 1000);
 }
 
-// var i = 0;
-
 function update() {
-  // date = new Date("October 13, 2014 " + (i++ % 24) + ":00:00");
   date = new Date();
 
   hours = date.getHours();
@@ -45,7 +42,7 @@ function update() {
   color = getColor(secondsSinceMidnight);
   body.style.background = "rgb(" + color[0] + ", " + color[1] + ", " + color[2] + ")";
 
-  timeDiv.innerHTML = javascriptSucks(hours) + ":" + javascriptSucks(minutes) + ":" + javascriptSucks(seconds);
+  timeDiv.innerHTML = javascriptSucks(hours) + ":" + javascriptSucks(minutes);
   dateDiv.innerHTML = days[date.getDay()] + ", " + months[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
 }
 

@@ -17,10 +17,8 @@ body {
 }
 
 #time {
-  font-size: 16em;
+  font-size: 12rem;
   font-weight: 100;
-
-  margin-bottom: 40px;
 }
 
 #date {

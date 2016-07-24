@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome New Tab Page",
+  "name": "Improved Chrome New Tab Page",
   "description": "This extension fixes the new tab page in Chrome.",
   "version": "1.0",
 

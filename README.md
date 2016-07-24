@@ -1,1 +1,1 @@
-This is a chrome extension that replaces the new tab page. It displays the time and date on a background that changes color based on the time of day.
+This extension replaces Chrome's default New Tab page. It displays the current date and time on a background that changes color depending on the time of day.
